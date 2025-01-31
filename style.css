@@ -41,6 +41,7 @@ p5 {
         font-style: normal;
         font-size: 1.1rem;
         color: rgb(0, 0, 0);
+        white-space: nowrap;
 }
 
 p6 {
@@ -80,6 +81,14 @@ hr {
     border-top: 1px dashed #acacac;
   }
 
+.hr_pos {
+    height: 0.1px;
+    width: 100%;
+    border: none;
+    border-top: solid 1px #f3f3f3;
+  }
+
+
  
 /* Стиль 18+ */
 p18 {
@@ -105,7 +114,6 @@ body {
 
 
 address {
-
     font-family: "Inter",sans-serif;
     font-style: normal;
     text-align: center;
@@ -115,3 +123,13 @@ address {
 }
 
 
+.rn_location{
+    font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 0.8rem;
+        color: rgb(82, 82, 82);
+        white-space: nowrap;
+        text-decoration-line: none;
+}
